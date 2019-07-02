@@ -1,0 +1,11 @@
+@import "../movie/movie-template.wxss";
+.more-container{
+    padding-top: 30rpx;
+    overflow: hidden;
+    padding-left: 10rpx;
+    /* height: 1300rpx; */
+}
+.moive-container{
+    float: left;
+    margin-bottom: 20rpx;
+}

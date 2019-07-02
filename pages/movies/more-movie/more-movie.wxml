@@ -1,0 +1,6 @@
+<import src="../movie/movie-template.wxml"/>
+<view class="more-container" onReachBottom="onReachBottom">
+    <block wx:for="{{movies}}" wx:for-item="movie">
+        <template is="movieTemplate" data="{{...movie}}"></template>
+    </block>
+</view>
